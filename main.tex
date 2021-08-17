@@ -1,0 +1,357 @@
+%-------------------------
+% Resume in Latex
+% Author : Ishan Bhatt (original: Jake Gutierrez)
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt, ]{article}
+
+\usepackage{multicol}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage[document]{ragged2e}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[default]{sourcesanspro}
+
+% serif
+\usepackage{CormorantGaramond}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\fancyheadoffset[R]{0pt}
+\fancyhead[R]{August 11, 2021}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+% \definecolor{orangish}{HTML}{bd5d38}
+\definecolor{orangish}{HTML}{cc3900}
+\definecolor{orangish}{HTML}{bf3300}
+
+
+\hypersetup{
+    colorlinks=true,     
+    urlcolor=orangish
+}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item[\bullet]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSilentItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeResultItem}[1]{
+  \item[\checkmark]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeImpactItem}[1]{
+  \item[\bigstar]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[4]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\      
+      \textit{\small#3} & \textit{\small #4}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeItemSilentListStart}{\vspace{-4pt} \begin{itemize}[label = {}]}
+\newcommand{\resumeItemSilentListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Ishan Bhatt} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 984-233-8019 ~ \raisebox{-0.2\height}\faEnvelope\  \href{mailto:ivbhatt@outlook.com}{  \underline{ivbhatt@outlook.com}} ~ 
+    \raisebox{-0.2\height}\faLinkedin\ \href{https://www.linkedin.com/in/ivbhatt
+}{\underline{www.linkedin.com/in/ivbhatt}}  ~
+    \raisebox{-0.2\height}\faGithub\ 
+    \href{https://github.com/ivbhatt}{ \underline{github.com/ivbhatt}} 
+    ~
+    \raisebox{-0.2\height}\faGlobe\  \href{https://ivbhatt.com}{\underline{ivbhatt.com}}
+    \vspace{-8pt}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.csc.ncsu.edu/}{Department of Computer Science, North Carolina State University}}{January 2021 -- December 2022}
+      {Master of Computer Science}{Raleigh, North Carolina, United States}
+\vspace{-2pt}  
+\resumeItemSilentListStart    \resumeSilentItem{\textbf{Grade Point Average \textit{(current)}: 4.33} on a 4-point scale}
+\resumeItemSilentListEnd
+% \vspace{-5pt}  
+    \resumeSubheading
+      {\href{https://www.bvmengineering.ac.in/index.aspx}{Birla Vishvakarma Mahavidyalaya, Gujarat Technological University}}{August 2015 -- June 2019}
+      {Bachelor of Technology (Computer Engineering)}{Vallabh Vidyanagar, Gujarat, India}
+ \vspace{-1pt}  
+ \resumeItemSilentListStart
+ \resumeSilentItem{\textbf{Cumulative Performance Index: 9.29} on a 10-point scale; \textbf{\href{http://gate.iitd.ac.in/}{GATE (Computer Science)}: All India Rank -- 1357} out of 99932 candidates}
+ \resumeItemSilentListEnd
+  
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://research.csc.ncsu.edu/picture/}{PICTure Research Group, North Carolina State University}}{June 2021 -- Present}
+      {Graduate Research Assistant}{Raleigh, North Carolina, United States}
+      \resumeItemListStart
+        \resumeItem{Using ML to test causal hypotheses around \href{https://en.wikipedia.org/wiki/Tropical_cyclogenesis}{Tropical Cyclogenesis} with the goal of achieving reliable \textbf{Pre-season Hurricane Prediction}}
+      \resumeItemListEnd
+    %   \vspace{-10pt}
+    \resumeSubheading
+      {\href{https://www.tcs.com/}{Tata Consultancy Services Limited - Research \& Innovation (Manufacturing)}}{January 2019 -- July 2020}
+      {Project Intern \& (later) Systems Engineer - AI/ML}{Mumbai, Maharashtra, India}
+      \resumeItemListStart
+        \resumeItem{Built ML-powered Fault Detection Systems for Car Seats, Jet Engines (Vibration Detection using sound), Metal Welds (Visual Weld Strength Analysis), PCBs (Detect missing components from images), etc.; Integrated these with TCS's \textit{Visual Cognitive Quality Assurance} suite}
+        
+        \resumeResultItem{Was usually responsible for proposing a new idea and deploying a PoC/Pilot application; Completed over ten projects in a year}
+      \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+
+\begin{multicols}{2}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming}{: Python 3, C++/C, JavaScript, Java* \\
+        \textbf{Machine Learning}{: NumPy, pandas, scikit-learn, OpenCV, NLTK} \\
+        \textbf{Deep Learning}{: TensorFlow(1.x) + Keras, PyTorch*} \\
+        \textbf{Visualization}{: matplotlib, tableau, d3.js, Seaborn} \\
+        
+        
+        \textbf{Web front-end}{: HTML 5, CSS 3, Bootstrap, JavaScript, React*} \\
+        \textbf{Web back-end}{: Python Flask, node.js, PHP, SQL} \\
+        \textbf{Internet of Things}{: Arduino, Raspberry Pi} \\
+        \textbf{Cloud/DevOps*}{: git, AWS, GCP, Docker} \\
+    }}}
+ \end{itemize}
+\end{multicols}
+\vspace{-5pt}
+\center{* \textit{indicates working-knowledge}}
+\vspace{-10pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \begin{justify}
+
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ivbhatt/TerrainRecognition-Competition}{Terrain Recognition}} $|$ \emph{Deep Learning - Time Series Analysis}}{}{}{}
+          \vspace{-20pt}
+          \resumeItemListStart
+            
+            \resumeItem{Built an Ensemble of \href{https://blog.keras.io/building-autoencoders-in-keras.html}{1D-Autoencoders} and \href{https://en.wikipedia.org/wiki/Bidirectional_recurrent_neural_networks}{Bi-LSTMs} to perform \href{https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html}{Sequence-to-Sequence Classification} for continuous terrain prediction using data stream from sensors (accelerometers and gyroscopes) attached to a person's prosthetic lower limb}
+            \resumeResultItem{Achieved 93.5\% weighted-mean F1-Score on the private leader-board; \textbf{Stood $1^{st}$} (among  $\approx 120$ participants) in the competition}
+          \resumeItemListEnd 
+        
+
+
+        \resumeProjectHeading
+          {\textbf{\href{https://github.com/aryashah278/IntelligentCharacterRecognition}{Intelligent Character Recognition}} $|$ \emph{Design Engineering}}{}{}{} 
+          \vspace{-20pt}
+          \resumeItemListStart
+            \resumeItem{Built a software solution to capture data from images of specially-designed hand-filled forms and store it into a database of user's choice}
+            
+            \resumeResultItem{Using \href{https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf}{SIFT}, managed to detect all the text blocks from well-lit images; Achieved classification accuracy of $\approx80\%$ using a \href{https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf}{CNN classifier}}
+            \resumeItemListEnd
+
+
+        \resumeProjectHeading
+        {\textbf{Website for College NCC Unit} $|$ \emph{Web Development}}{}{}{}        
+          \vspace{-20pt}
+        \resumeItemListStart
+            \resumeItem{Proposed, developed and maintained a website for the National Cadet Corps unit hosted on college campus from 2018 to 2020}
+            
+            \resumeResultItem{Was awarded \textbf{NCC Certificate of Excellence} for this work; Currently, NIC-India hosts a \href{https://indiancc.nic.in/}{modified version}}
+            \resumeItemListEnd
+
+
+    %   \resumeProjectHeading
+    %       {\textbf{\href{https://drive.google.com/file/d/1UMt_6w-8ewIUkWwsc2EcDr6peivLW2Rk/view?usp=sharing}{Car Seat Fault Detection System}} $|$ \emph{Deep Learning - Computer Vision}}{}{}{}                    
+    %       \vspace{-20pt}
+    %       \resumeItemListStart
+    %         \resumeItem{Built a system to detect manufacturing faults (E. g. wrinkles, scratches) using HD images from the Car Seat assembly line}
+    %         % \resumeItem{Built \href{https://arxiv.org/pdf/1505.04597v1.pdf}{U-Net}-inspired
+    %         % \href{https://nanonets.com/blog/semantic-image-segmentation-2020/}{Semantic Segmentation} networks to create part-masks for parts of a seat (E. g. back-rest, head-rest)}
+    %         % \resumeItem{Built a \href{https://arxiv.org/pdf/1512.02325.pdf}{Single Shot (MultiBox) Detector}-inspired \href{https://www.fritz.ai/object-detection/#:~:text=Object\%20detection\%20is\%20a\%20computer,all\%20while\%20accurately\%20labeling\%20them.}{Object Detection} network modeling the faults as objects.}
+    %         \resumeResultItem{Achieved $\approx90\%$ mAP@IoU=0.7 using an \href{https://arxiv.org/pdf/1512.02325.pdf}{SSD}-inspired \href{https://www.fritz.ai/object-detection/#:~:text=Object\%20detection\%20is\%20a\%20computer,all\%20while\%20accurately\%20labeling\%20them.}{Object Detection} model and a \href{https://arxiv.org/pdf/1505.04597v1.pdf}{U-Net}-inspired
+    %         \href{https://nanonets.com/blog/semantic-image-segmentation-2020/}{Semantic Segmentation} model.}
+    %         % \resumeResultItem{Achieved , beat best Transfer Learning approach by $\approx10\%$ on this metric}
+    %         \resumeResultItem{Obtained approval to deploy the pilot on-site; \textbf{Stood $3^{rd}$} (among $\approx60$ participants) in department's annual poster/project exposition}
+    %         \resumeItemListEnd
+            
+            %   \vspace{-10pt}
+              \resumeProjectHeading
+              {\textbf{\href{https://github.com/ivbhatt/SinglePerson2DPoseEstimation}{Single Person 2D Pose Estimation}} $|$ \emph{Deep Learning - Computer Vision}}{}{}{}                    
+              \vspace{-20pt}
+    
+              \resumeItemListStart
+                \resumeItem{Built an HPE system taking inspiration from \href{https://arxiv.org/pdf/1602.00134.pdf}{CPMs} and \href{https://arxiv.org/pdf/1603.06937.pdf}{SHMs}; Achieved $\approx 82\%$ PCKh@0.5 which is 10\% less than \href{https://arxiv.org/pdf/1901.01760.pdf}{State-of-the-Art}}
+                \resumeItemListEnd
+                \vspace{-5pt}
+            \resumeProjectHeading
+              {\textbf{\href{https://drive.google.com/drive/folders/16YSzpXX8hZ2esmcwaVxNPADj3v1WIfHF?usp=sharing}{Maze Exploration and Navigation}} $|$ \emph{Reinforcement Learning; IoT}}{}{}{}
+              \vspace{-20pt}
+              \resumeItemListStart
+                \resumeItem{Trained an RL agent using Deep-Q-learning and Policy Gradient methods to navigate through an uncharted region on-the-fly}
+                \resumeItem{Built a Raspberry Pi powered pilot-vehicle with \href{https://en.wikipedia.org/wiki/Lidar}{LiDAR} (for location tracking \& obstacle detection) that could navigate in sparse mazes}
+                % \resumeItem{Experimented with Deep-Q-learning and Policy Gradient methods to train the Reinforcement Learning Agent}
+                % \resumeItem{Built a Raspberry Pi powered vehicle that could navigate in sparse obstacle courses using \href{https://en.wikipedia.org/wiki/Lidar}{LiDAR} (for location tracking & obstacle detection)}
+              \resumeItemListEnd 
+        \resumeSubHeadingListEnd
+    \end{justify}
+
+\vspace{-10pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Students' Core Committee (SCC), BVM Engineering College}{ \textit{Member \& Computer  Engineering Branch Co-head}}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeItem{SCC organizes BVM's annual techno-cultural festival \href{https://www.youtube.com/watch?v=qVKYQioCpzw}{UDAAN}; 3000+ participants from across the state are hosted on the BVM campus}
+            \resumeResultItem{Was directly responsible for conducting 4 events totaling  $\approx600$ participants; Received \textbf{Spirit of Udaan award} for exceptional contribution}
+        \resumeItemListEnd
+    % \vspace{-10pt}
+    \resumeSubheading{National Cadet Corps (NCC), 2 Composite Technical Company (NCC)}{\textit{Cadet \& (later) Under Officer}}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeResultItem{Was directly responsible for ensuring  proper training of about 60 cadets; Proposed, developed and maintained a website for the unit}
+            \resumeResultItem{Received \textbf{NCC Certificate of Excellence}; Recieved NCC Officers' Training Academy (Kamptee) \textbf{Certificate of Merit}, etc.}
+        \resumeItemListEnd
+
+    \resumeSubheading{Writing}{}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeResultItem{Writer for Analytics Vidhya's Online Publication; 100+ hours of total read time on my \href{https://ivbhatt.medium.com/}{Medium} blogs related to Machine Learning}
+            \resumeResultItem{Active Writer on \href{https://www.quora.com/profile/Ishan-Bhatt-21}{Quora} since 2015; 67K+ lifetime views on my answers to questions related to various topics in Computer Science}
+            \resumeResultItem{Contributed to most major campus periodicals at BVM; 4 of my  \href{https://drive.google.com/drive/folders/1sOZIAW9ZOfXf0sClM-c1x2Be4pcSgcNG}{non-technical articles} were featured in various campus publications} 
+            % \resumeResultItem{      \href{https://drive.google.com/drive/folders/1sOZIAW9ZOfXf0sClM-c1x2Be4pcSgcNG}{Research Papers}}
+            
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\end{document}
